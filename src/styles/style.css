@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(190, 227, 236);
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+  margin: 8px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.photographer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 1.8rem;
+  object-fit: cover;
+  transform: scale(1);
+}
+
+.image-container {
+  height: 40vh;
+  overflow: hidden;
+}
+
+.image:hover {
+  transition: all 1s;
+  transform: scale(1.5);
+}
+
+.pht {
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: darkblue;
+}
